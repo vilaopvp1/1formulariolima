@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+#container {
+    width: 400px;
+    height: 800px;
+    background-color: #5e5555;
+    margin: 0 auto;
+}
+
+#barra_superior {
+    width: 400px;
+    height: 3px;
+    background-color: #f6db7b;
+    margin-bottom: 12px;
+}
+
+#quadrado {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(239, 190, 14, 0.55);
+    border-radius: 4px;
+    margin-left: 35px;
+    margin-top: 30px;
+
+
+}
+
+#inscrever {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 43px;
+    margin-top: -70px;
+}
+
+#q1 {
+    width: 25px;
+    height: 1px;
+    background-color: black;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+
+#q2 {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin-left: 368.5px;
+    margin-bottom: 33px;
+    margin-top: -29px;
+}
+
+#q3 {
+    width: 24px;
+    height: 1px;
+    background-color: black;
+    margin-left: 364px;
+    margin-top: -33px;
+    margin-bottom: 49px;
+}
+
+#fundo_form {
+    width: 340px;
+    height: 630px;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+    margin-top: -10px;
+    border-radius: 5.5px;
+    padding-top: 10px;
+}
+
+#label_nome {
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+#input_nome{
+    width: 300px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #ffbb11;
+    border: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#label_email {
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+#input_email{
+    width: 300px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #ffbb11;
+    border: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#label_senha {
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+
+
+#input_senha{
+    width: 300px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #ffbb11;
+    border: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* #esconder{
+    width: 18px;
+    height: 18px;
+    opacity: 0.2px;
+    margin-top: -48px;
+    margin-bottom: 48px;
+    margin-left: 290px;
+} */
+
+#label_cep {
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#label_numero {
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 127px;
+}
+
+#input_cep {
+    width: 135px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #ffbb11;
+    border: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+#input_numero {
+    width: 135px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #ffbb11;
+    border: 0px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#label_rua {
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+#input_rua {
+    width: 300px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #ffbb11;
+    border: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#label_cidade {
+    font-family: roboto;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+#input_cidade {
+    width: 300px;
+    height: 35px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #ffbb11;
+    border: 0px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#checkbox {
+    width: 18px;
+    height: 15px;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 20px;
+}
+
+#concordo {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#botao {
+    width: 166px;
+    height: 48px;
+    background-color: #ffbb12;
+    border:none;
+    color: #7c5f15;
+    font: 20px, 'roboto', 'bold';
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 30px;
+
+
+}
+
+
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela 03</title>
+    <link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+    <div id="container">
+            <canvas id="barra_superior"></canvas>
+            <canvas id="quadrado"></canvas>
+            <canvas id="q1"></canvas>
+            <canvas id="q2"></canvas>
+            <canvas id="q3"></canvas>
+            <p id="inscrever">Inscreva-se</p>
+            <div id="fundo_form">
+                <form action="">
+                    <label for="fnome" id="label_nome">Nome</label>
+                    <input type="text" id="input_nome">
+
+                    <label for="femail" id="label_email">Email</label>
+                    <input type="email" id="input_email">
+                    
+                    <label for="fpassword" id="label_senha">Senha</label>
+                    <input type="password" id="input_senha">
+                    <!-- <img src="/imagens/esconder.svg" alt="" id="esconder"> -->
+                    
+                    <label for="fcep" id="label_cep">CEP</label>
+                    <label for="fnumero" id="label_numero">Número</label>
+                    <br>
+                    
+                    <input type="text" id="input_cep">
+                    <input type="text" id="input_numero">
+
+                    <label for="frua" id="label_rua">Rua</label>
+                    <input type="text" id="input_rua">
+
+                    <label for="fcidade" id="label_cidade">Cidade</label>
+                    <select id="input_cidade" nome="Cidade">
+                        <option value="valor1">Selecione uma cidade.</option>
+                        <option value="valor2">São Paulo</option>
+                        <option value="valor3" selected>Rio de Janeiro</option>
+                        <option value="valor4">Minas Gerais</option>
+                    </select>
+
+                    <input type="checkbox" id="checkbox">
+                    <label for="frua" id="label_concordo">Concordo com os Termos e Condições</label>
+
+                    <input type="submit" value="Cadastrar conta" id="botao">
+
+
+                </form>
+            </div>
+    </div>
+    
+</body>
+</html>
